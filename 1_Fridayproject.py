@@ -22,7 +22,7 @@ def create_story(inputs):
     return story
 
 # Main function to run the Mad Lib
-def mad_lib_game():
+def mad_lib_game(): 
     print("Welcome to the Mad Lib game!")
     user_inputs = get_user_inputs()
     story = create_story(user_inputs)
