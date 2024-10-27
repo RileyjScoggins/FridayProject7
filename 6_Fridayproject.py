@@ -53,7 +53,7 @@ while True:
                 print("Invalid input. Please enter a valid amount.")
         
         elif choice == "b":
-            try:
+            try: 
                 amount = float(input("Enter the amount to withdraw: $"))
                 account.withdraw(amount)
             except ValueError:
